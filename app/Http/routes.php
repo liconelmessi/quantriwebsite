@@ -11,4 +11,5 @@
 |
 */
 
-Route::get('/welcome', 'admin_controller@welcome');
+Route::get('/', 'admin_controller@welcome');
+Route::get('trang-chao', 'admin_controller@welcome2');
