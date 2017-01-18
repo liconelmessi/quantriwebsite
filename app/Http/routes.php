@@ -11,5 +11,9 @@
 |
 */
 
-Route::get('/', 'admin_controller@welcome');
-Route::get('trang-chao', 'admin_controller@welcome2');
+Route::get('/',
+['as'=>'admin','uses'=>'admin_controller@login'] );
+// Route::get('/','admin_controller@login');
+Route::post('/',
+['as'=>'post_admin','uses'=>'admin_controller@check_login'] );
+//Route::get('quan-tri','admin_controller@quantri');

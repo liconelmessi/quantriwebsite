@@ -14,7 +14,7 @@ html {
 body {
                 font-family: Arial, Helvetica, sans-serif;
                 color: #555;
-                background: #f0f0f0 url('../images/bg-radial-gradient.jpg') top left repeat-y;
+                background: #f0f0f0 url('images/bg-radial-gradient.jpg') top left repeat-y;
                 font-size: 12px;
                 }
 
@@ -614,11 +614,11 @@ form input[type="radio"] {
 
 body#login {
                 color: #fff;
-                background:url(../images/backround.jpg);
+                background:url(../../../images/backround.jpg);
 				}
 				
 #login-wrapper {
-                background: url('../images/bg-login-top.png') top left repeat-x;
+                background: url('../../../images/bg-login-top.png') top left repeat-x;
 				}
 
 #login-wrapper #login-top {
